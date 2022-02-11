@@ -12,10 +12,21 @@ public class ExerciseGenericDataMain {
 //
 //    Run the program and look into the target folder, how does it deal with the generic type?
 
+
+    // new exercise
+
+//•Make a generic interface Foldable
+//•Add one (abstract) method fold that takes the generic type and return it folded
+//•Implement the generic interface to the bag from the previous exercise
+//
+
     public static void main(String[] args) {
         Bag<Groceries> boodschappenTas = new Bag<>();
         Bag<List<Groceries>> groteBoodschappenTas = new Bag<>();
 
+        Bag.<Groceries>doStuff(new Groceries());
+        Bag.doStuff("dit mag wel");
+        //Bag.<Groceries>doStuff("dit mag niet");
         //de boodschappenTas voldoet aan de signature parameter van de static unpack onderstaand
         unpack(boodschappenTas);
         //deze weet dat ie een lijst terug krijgt, dankzij de generic
