@@ -10,7 +10,9 @@ import java.util.stream.Collectors;
 public class MethodReferencesExamples {
 
     public MethodReferencesExamples() {
-
+        int ok = 43434;
+        long ookOk = 345345;
+//        long nietOk = 12345678988;
     }
 
     // constructor to demonstrate method ref constructor with argument

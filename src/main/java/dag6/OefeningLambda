@@ -1,0 +1,12 @@
+// maak functionalInterface met args en output
+Ik wil graag dat je een interface gaat maken, die twee getallen accepteert
+Implementeer deze als volgt:
+- twee getallen die door elkaar gedeeld worden + output
+- twee getallen die met elkaar vermenigvuldigd worden + return output
+
+// maak functionalInterface zonder args zonder output
+- print een begroeting op de eerste regel
+- nieuw printregel met hhoe gaat het?
+
+// maak een methode die de eerste fi als argument neemt
+// roep die fi methode aan vanuit die nieuwe methode
